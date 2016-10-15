@@ -137,7 +137,8 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  /*justify-content: space-around;*/
+  justify-content: flex-start;
   padding: 10px;
 }
 
@@ -160,7 +161,7 @@ ul {
   float: left;
   padding: 10px;
   width: 200px;
-  display: none;
+  /*display: none;*/
 }
 
 img {
@@ -193,12 +194,12 @@ span {
   #lets-connect {
     margin-top: 10%;
   }
-  .biopic {
+  /*.biopic {
     width: 150px;
   }
   .welcome-message {
     display: none;
-  }
+  }*/
 }
 
 #map {
