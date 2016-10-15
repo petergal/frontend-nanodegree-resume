@@ -219,4 +219,9 @@ span {
   .biopic {
     display: block;
   }
+
+.google-maps-marker {
+  color: darkolivegreen;
+}
+
 }
